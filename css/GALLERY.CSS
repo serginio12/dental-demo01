@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+overflow: hidden;
+    background-color: 
+}
+
+
+.cont-one{
+    overflow: visible;
+}
+
+
+.bg-ligh{
+    color: #6d4130;
+    font-weight: 600;
+    background-color: #34f4f4;
+}
+
+.z-end {
+    z-index: 333;
+    top: 53%;
+    background-color: red;
+    left: 5%;
+}
+
+.appointment{
+    position: absolute;
+    z-index: 999;
+     background-color: #e56e6e;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+    transform: rotate(-90deg);
+    padding-left: 1%;
+    padding-right: 0.7%;
+    height: 32px;
+}
+
+.appointment a{
+    color: white;
+    margin: 3px;
+    font-size: 18px;
+}
+    
+.appointment:hover a{
+      color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+     .z-end{
+        left: 11%;
+         top: 95%;
+    }
+}
+
+
+
+
+.cont-one img{
+    width: 56%;
+    margin-left: 17%;
+    }
+
+
+.navbar-nav .nav-link{
+    color: #6d4130;
+}
+
+.navbar-nav .navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
+ 
+.on-col p {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 19px;
+     font-family: serif; 
+    margin-top: 8px;
+}
+
+
+
+.fas{
+    color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fab{
+     color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+   
+}
+
+
+
+.on-col{
+    margin-top: 5px;
+}
+
+.on-col p, .on-col a {
+     color: #6d4130;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 20px;
+  font-family: serif;
+}
+
+ 
+
+.on-col a:hover{
+     text-decoration: none; 
+    color: #6d4130;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 86px;
+    background-image: url(../images/wells.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider{
+    background-image: url(../images/company1.jpg);
+    background-repeat: no-repeat;
+    height: 580px;
+    animation: slide 65s infinite;
+    border-radius: 4%;
+}
+
+@keyframes slide{
+    
+    10%{
+        background-image: url(/images/company2.jpg);
+    }
+     25%{
+        background-image: url(/images/company3.jpg);
+    }
+    
+    35%{
+        background-image: url(/images/company4.jpg);
+    }
+    45%{
+        background-image: url(/images/company5.jpg);
+    }
+    55%{
+        background-image: url(/images/company6.jpg);
+    }
+    65%{
+        background-image: url(/images/company7.jpg);
+    }
+    
+     75%{
+        background-image: url(../images/company8.jpg);
+    }
+    
+    
+}
+
+
+
+
+
+.time p{
+    margin-bottom:inherit;
+    
+}

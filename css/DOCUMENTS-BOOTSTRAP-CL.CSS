@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+overflow: hidden;
+}
+
+.cont-one{
+    overflow: visible;
+}
+
+
+.bg-ligh{
+    color: #6d4130;
+    font-weight: 600;
+    background-color: #34f4f4;
+}
+
+.z-end {
+    z-index: 333;
+    top: 53%;
+    background-color: red;
+    left: 5%;
+}
+
+.appointment{
+    position: absolute;
+    z-index: 999;
+     background-color: #e56e6e;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+    transform: rotate(-90deg);
+    padding-left: 1%;
+    padding-right: 0.7%;
+    height: 32px;
+}
+
+.appointment a{
+    color: white;
+    margin: 3px;
+    font-size: 18px;
+}
+    
+.appointment:hover a{
+      color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+     .z-end{
+        left: 11%;
+         top: 95%;
+    }
+}
+
+
+
+
+.cont-one img{
+    width: 56%;
+    margin-left: 17%;
+    }
+
+
+.navbar-nav .nav-link{
+    color: #6d4130;
+}
+
+.navbar-nav .navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+ 
+.on-col p {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 19px;
+     font-family: serif; 
+    margin-top: 8px;
+}
+
+
+
+.fas{
+    color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fab{
+     color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+   
+}
+
+
+
+.on-col{
+    margin-top: 5px;
+}
+
+.on-col p, .on-col a {
+     color: #6d4130;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 20px;
+  font-family: serif;
+}
+
+ 
+
+.on-col a:hover{
+     text-decoration: none; 
+    color: #6d4130;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 86px;
+    background-image: url(../images/wells.png);
+}
+
+
+
+
+.main{
+    margin-top: 40px
+}
+.front-head{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+
+.front-head-dent {
+       box-sizing: border-box;
+    background: url(../images/sedation-pack.jpeg) no-repeat;
+    background-size: cover;
+    max-width: 85%;
+    margin-left:40px;
+    height: 463px;
+}
+
+.front-head-dent-den {
+    box-sizing: border-box;
+    width: 46%;
+    height: 322px;
+    background-color: white;
+    position: absolute;
+    top: 12%;
+    left: 54%;
+    padding-left: 60px;
+    opacity: 0.7;}
+
+
+.front-head-dent-den h2 {
+     font-family: serif;
+    font-size: 29px;
+    font-weight: 200;
+    margin-top: 50px;
+    color: #5d5d5d;
+}
+
+.front-head-dent-den h1{
+    font-family: serif;
+padding-right: 29px;
+    font-size: 24px;
+     color: #5d5d5d;
+    animation-delay: 0.5s;
+    font-weight: 600;
+    margin: 13px 0 13px;
+    
+}
+.word2{
+    animation-delay: 1s;
+}
+
+
+
+.line-one{
+    border: 1px solid  #5d5d5d;
+    width: 60%;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.word1{
+    animation-delay: 0.4s;
+}
+
+.word2{
+    animation-delay: 0.8s;
+}
+
+
+
+.vert-line{
+     height: 60px;
+    width: 3px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 100%;
+    margin-bottom: 10px;
+    
+}
+
+
+.text-subline{
+    
+     position: relative;
+    height: 2px;
+    padding: 0;
+    background: #e5e5e5;
+    margin-bottom: 2px;
+    border: none;
+  
+}
+
+
+.text-subline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 50%;
+    background: #32b9ec;
+}
+
+ .text-line{
+    text-align: justify;
+    width: 70%;
+}
+
+.text-line h3{
+    text-align: center;
+    margin: 20px
+}
+
+
+
+.long{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media  only screen and (min-width: 576px){
+    
+    .vert-line{
+        margin-top: 20px;
+    }
+    
+     .row-line{
+        margin-top: -30px;
+    }
+    
+    .con{
+        margin-top: 40px;
+    }
+    
+    .imag3{
+        margin-top: 10px;
+    }
+    
+    .cl3 .cl5{
+        margin-top: 4px;
+    }
+    
+    .front-head-dent-den p{
+        padding-right: 0px;
+        margin-top: 16px;
+    }
+    .inside1 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    
+        .front-head-dent-den {
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7;
+    position: absolute;
+    display: contents;
+}
+    .front-head-dent {
+    box-sizing: border-box;
+    background: url(../sedation-pack.jpeg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 289px;
+}
+    
+    .word, .word2{
+        text-align: center;
+        
+    }
+    
+    .line-one{
+        height: 1px;
+        width: 100%;
+        border: 1.5px solid #5d5d5d;
+    }
+    
+   
+    
+    .left-image {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .modal-content{
+       max-width: 44%;
+        height: 190px;
+        margin-top: 50%;
+
+    }
+    
+    .row{
+        
+    }
+}
+
+
+
+

@@ -1,0 +1,330 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+overflow: hidden;
+}
+
+
+.cont-one{
+    overflow: visible;
+}
+
+
+.bg-ligh{
+    color: #6d4130;
+    font-weight: 600;
+    background-color: #34f4f4;
+}
+
+.z-end {
+    z-index: 333;
+    top: 53%;
+    background-color: red;
+    left: 5%;
+}
+
+.appointment{
+    position: absolute;
+    z-index: 999;
+     background-color: #e56e6e;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+    transform: rotate(-90deg);
+    padding-left: 1%;
+    padding-right: 0.7%;
+    height: 32px;
+}
+
+.appointment a{
+    color: white;
+    margin: 3px;
+    font-size: 18px;
+}
+    
+.appointment:hover a{
+      color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+     .z-end{
+        left: 11%;
+         top: 95%;
+    }
+}
+
+
+
+
+.cont-one img{
+    width: 56%;
+    margin-left: 17%;
+    }
+
+
+.navbar-nav .nav-link{
+    color: #6d4130;
+}
+
+.navbar-nav .navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
+ 
+.on-col p {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 19px;
+     font-family: serif; 
+    margin-top: 8px;
+}
+
+
+
+.fas{
+    color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fab{
+     color: #6d4130;
+    font-size: 20px;
+    margin-right: 5px;
+   
+}
+
+
+
+.on-col{
+    margin-top: 5px;
+}
+
+.on-col p, .on-col a {
+     color: #6d4130;
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 20px;
+  font-family: serif;
+}
+
+ 
+
+.on-col a:hover{
+     text-decoration: none; 
+    color: #6d4130;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 86px;
+    background-image: url(../images/wells.png);
+}
+
+
+
+
+
+
+.card{
+    background-color: #ff0b1e;
+    margin: 4px;
+    height: 300px;
+    border-radius: 9px;
+    box-shadow: 14px 14px 88px -17px rgba(135, 208, 217, 0.73);
+
+}
+
+.color{
+    color: floralwhite;
+    border-radius: 70px;
+    background: linear-gradient(to right, #32b9ec 0%, #37d6c0 91%, #32b9ec 100%) no-repeat;
+}
+
+
+
+.text-lef{
+    width: 120px;
+    height: 2px;
+    margin-left: 0px;
+    background: #0fb1f8;
+    border: none;
+}
+
+.text-lef2{
+    width: 120px;
+    height: 2px;
+    margin-left: 0px;
+    background: #0fb1f8;
+    border: none;
+}
+
+
+.ady{
+    width: 50%;
+    
+}
+
+.line-services{
+    margin-bottom: 10px;
+    position: absolute;
+    left: 47%;
+    width: 6%;
+    height: 2.3px;
+    background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 10%) no-repeat;
+}
+
+.text-subline{
+    
+     position: relative;
+    height: 1px;
+    padding: 0;
+    background: #e5e5e5;
+    margin-bottom: 22px;
+    border: none;
+  
+}
+
+
+.text-subline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.6px;
+    width: 70px;
+    background: #32b9ec;
+}
+
+
+.path{
+    background-color: aqua;
+ 
+    
+}
+
+
+
+
+
+
+.counting-section{
+    margin-top: 10px;
+    margin-bottom: 90px;
+   padding: 70px 0;
+    width: 100%;
+    background-image:url(../images/tooth8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;
+    
+}
+
+
+.inner-width{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.cols{
+    max-width: 20%;
+    height: auto;
+    flex: 1;
+    text-align: center;
+    padding: 11px;
+    color: #5d5d5d;
+    text-transform: uppercase;
+}
+
+.cols` i{
+    font-size: 34px;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    color: #5d5d5d;
+}
+
+.num{
+    font-weight: 500;
+    font-size: 22px;
+    padding: 6px;
+}
+
+
+
+
+paralax{
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 1% 300%);
+    background-image: url(../images/den1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralax1{
+    padding-top: 70px;
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+     background-color: rgba(0, 67, 75, 0.73);
+}
+
+.paralax2{
+        background-attachment: fixed;
+    background-image: url(../images/tooth7.jpg);
+background-size:cover;
+    height: 300px;
+    padding-top: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer{
+ background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 100%) no-repeat;
+    margin: 20px 0 20px 0;
+    color: aliceblue;
+    text-align:center;
+    padding: 22px;
+}
+
+.time p{
+    margin-bottom:inherit;
+    
+}
+
+
+
+
+@media screen and (max-width:576px){
+    .counting-section{
+        display: none;
+     
+    }
+} 
+
+
+@media screen and (max-width:426px){
+   
+    .paralax2{
+        height: 377px;
+    }
+    
+    .line-services{
+    
+        left: 41%;
+        width: 20%;
+        height: 2.3px;
+    }
+    
+    .appoinment{
+        top: -20%;
+    }
+     
+    }
+}
+
